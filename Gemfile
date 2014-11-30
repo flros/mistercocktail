@@ -32,6 +32,7 @@ gem 'simple_form'
 gem 'figaro'
 gem 'paperclip'
 gem 'aws-sdk'
+gem 'bootstrap-sass'
 
 group :development do
   gem "better_errors"

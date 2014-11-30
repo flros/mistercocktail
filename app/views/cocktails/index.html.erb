@@ -1,4 +1,8 @@
-<h2>Liste de cocktails <%= link_to 'ajouter', new_cocktail_path %></h2>
+<h1>
+  Welcome to Shake It Baby
+</h1>
+
+<h4><%= link_to 'ajouter un cocktail', new_cocktail_path %></h4>
 
 <ul>
   <% @cocktails.each do |cocktail| %>
