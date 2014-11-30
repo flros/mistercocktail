@@ -29,7 +29,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'simple_form'
-
+gem 'figaro'
+gem 'paperclip'
+gem 'aws-sdk'
 
 group :development do
   gem "better_errors"
