@@ -33,6 +33,7 @@ gem 'figaro'
 gem 'paperclip'
 gem 'aws-sdk'
 gem 'bootstrap-sass'
+gem 'devise'
 
 group :development do
   gem "better_errors"
