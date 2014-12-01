@@ -1,6 +1,5 @@
 <%= render "cocktails/navfoot" %>
 
-
 <center>
 <h1>
   Welcome to Shake It Baby
@@ -9,12 +8,11 @@
 
 <%= link_to 'ajouter un cocktail', new_cocktail_path , :class => "btn btn-primary btn-mini" %>
 
-
 <center>
-<ul>
+<div class='enumeration'>
   <% @cocktails.each do |cocktail| %>
     <p><%= link_to cocktail.name, cocktail_path(cocktail) %></p>
   <% end %>
-</ul>
+</div>
 </center>
 
