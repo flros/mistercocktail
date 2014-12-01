@@ -6,13 +6,18 @@
 </h1>
 </center>
 
-<%= link_to 'ajouter un cocktail', new_cocktail_path , :class => "btn btn-primary btn-mini" %>
+<div class="container">
 
-<center>
-<div class='enumeration'>
-  <% @cocktails.each do |cocktail| %>
-    <p><%= link_to cocktail.name, cocktail_path(cocktail) %></p>
-  <% end %>
+  <div class='enumeration'>
+    <%= link_to '# ajouter un cocktail #', new_cocktail_path , :class => "btn btn-primary btn-mini" %>
+    <b>
+      <% @cocktails.each do |cocktail| %>
+        <p><%= link_to cocktail.name, cocktail_path(cocktail) %></p>
+      <% end %>
+    </b>
+  </div>
+
+
 </div>
-</center>
+
 
