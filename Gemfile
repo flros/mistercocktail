@@ -35,7 +35,7 @@ gem 'aws-sdk'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'devise'
-
+gem 'omniauth-facebook'
 
 
 group :development do
