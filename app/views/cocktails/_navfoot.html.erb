@@ -63,7 +63,7 @@
                    <% if current_user.provider %>
                      <%= image_tag current_user.picture, class: "img img-circle" %>
                    <% end %>
-                   <%= current_user.email %>
+                   <%= current_user.name %>
                    <b class="caret"></b>
                  </a>
                  <ul class="dropdown-menu">
@@ -71,7 +71,7 @@
                  </ul>
                </li>
              <% else %>
-               <%= link_to "B2B, Please try to Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
+               <%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook),:class => "btn btn-primary btn-mini"%>
              <% end %>
         </ul>
 
